@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-22T11:05:19 IST" name="Default suite" finished-at="2023-07-22T11:05:34 IST" duration-ms="15436">
+    <groups>
+      <group name="Account Creation">
+        <method signature="ParallelTest.facebookAccCreation()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" name="facebookAccCreation" class="com.ecommerce.test.ParallelTest"/>
+        <method signature="ParallelTest.googleAccCreation(java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" name="googleAccCreation" class="com.ecommerce.test.ParallelTest"/>
+      </group> <!-- Account Creation -->
+      <group name="Launch">
+        <method signature="ParallelTest.googleWebsiteTitle()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" name="googleWebsiteTitle" class="com.ecommerce.test.ParallelTest"/>
+      </group> <!-- Launch -->
+    </groups>
+    <test started-at="2023-07-22T11:05:19 IST" name="Default test" finished-at="2023-07-22T11:05:34 IST" duration-ms="15436">
+      <class name="com.ecommerce.test.ParallelTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:19 IST" name="beforeClass" finished-at="2023-07-22T11:05:23 IST" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f1()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:23 IST" name="f1" finished-at="2023-07-22T11:05:23 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f2()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:23 IST" name="f2" finished-at="2023-07-22T11:05:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method signature="facebookAccCreation()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:23 IST" name="facebookAccCreation" finished-at="2023-07-22T11:05:27 IST" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookAccCreation -->
+        <test-method signature="googleWebsiteTitle()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:27 IST" name="googleWebsiteTitle" finished-at="2023-07-22T11:05:29 IST" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleWebsiteTitle -->
+        <test-method signature="googleAccCreation(java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:29 IST" name="googleAccCreation" data-provider="googleUserData" depends-on-groups="Launch" finished-at="2023-07-22T11:05:32 IST" duration-ms="3084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fname1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lname1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAccCreation -->
+        <test-method signature="googleAccCreation(java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:32 IST" name="googleAccCreation" data-provider="googleUserData" depends-on-groups="Launch" finished-at="2023-07-22T11:05:34 IST" duration-ms="1782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fname2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lname2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAccCreation -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ecommerce.test.ParallelTest@74d1dc36]" started-at="2023-07-22T11:05:34 IST" name="afterClass" finished-at="2023-07-22T11:05:34 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ecommerce.test.ParallelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
